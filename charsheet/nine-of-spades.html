@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2024-03-06 Wed 19:40 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Nine of Spades</title>
+<meta name="author" content="Pulkit Mohata" />
+<meta name="generator" content="Org Mode" />
+<style>
+  #content { max-width: 60em; margin: auto; }
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #e6e6e6;
+    border-radius: 3px;
+    background-color: #f2f2f2;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    top: -8px;
+    right: 12px;
+    padding: 3px;
+    color: #555;
+    background-color: #f2f2f299;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-authinfo::before { content: 'Authinfo'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { }
+</style>
+<link rel="stylesheet" type="text/css" href="../html/style.css" />
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Nine of Spades</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org06567b3">1. Character Sheet</a>
+<ul>
+<li><a href="#org7f79e0c">1.1. Basics</a></li>
+<li><a href="#org6ee1b9b">1.2. Abilities</a></li>
+<li><a href="#org21870c2">1.3. Combat and Movement</a></li>
+<li><a href="#orgab2ffbe">1.4. Skills</a></li>
+<li><a href="#orgf16f896">1.5. Equipment</a></li>
+<li><a href="#org5140120">1.6. Features &amp; Traits</a></li>
+<li><a href="#org86d0379">1.7. Backstory</a></li>
+<li><a href="#orgb0ccddf">1.8. Notes</a></li>
+</ul>
+</li>
+<li><a href="#org54fbcad">2. Spells</a>
+<ul>
+<li><a href="#org6d65b0a">2.1. Cantrips</a>
+<ul>
+<li><a href="#orgbb16d1c">2.1.1. Vicious Mockery</a></li>
+<li><a href="#org71c7ead">2.1.2. Minor Illusion</a></li>
+<li><a href="#org62067fe">2.1.3. Prestidigitation</a></li>
+</ul>
+</li>
+<li><a href="#org4110e3d">2.2. First Level</a>
+<ul>
+<li><a href="#org898b047">2.2.1. Dissonant Whispers</a></li>
+<li><a href="#org150b2aa">2.2.2. Sleep</a></li>
+<li><a href="#org8a6ee08">2.2.3. Tasha&rsquo;s Hideous Laughter</a></li>
+<li><a href="#org09d2ee3">2.2.4. Distort Value</a></li>
+</ul>
+</li>
+<li><a href="#org5e90c6c">2.3. Second Level</a>
+<ul>
+<li><a href="#orga7c8fbf">2.3.1. Enlarge/Reduce</a></li>
+<li><a href="#org0721cbd">2.3.2. Nathair&rsquo;s Mischeif</a></li>
+<li><a href="#org2ccbe1e">2.3.3. Suggestion</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org06567b3" class="outline-2">
+<h2 id="org06567b3"><span class="section-number-2">1.</span> Character Sheet</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org7f79e0c" class="outline-3">
+<h3 id="org7f79e0c"><span class="section-number-3">1.1.</span> Basics</h3>
+<div class="outline-text-3" id="text-1-1">
+<ul class="org-ul">
+<li>Name: Nine of Spades</li>
+<li>Race: Human</li>
+<li>Class: Bard</li>
+<li>Background: Gambler</li>
+<li>Alignment: N</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org6ee1b9b" class="outline-3">
+<h3 id="org6ee1b9b"><span class="section-number-3">1.2.</span> Abilities</h3>
+<div class="outline-text-3" id="text-1-2">
+<ul class="org-ul">
+<li>Strength (STR): 5</li>
+<li>Dexterity (DEX): 12</li>
+<li>Constitution (CON): 12</li>
+<li>Intelligence (INT): 13</li>
+<li>Wisdom (WIS): 16</li>
+<li>Charisma (CHA): 19</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org21870c2" class="outline-3">
+<h3 id="org21870c2"><span class="section-number-3">1.3.</span> Combat and Movement</h3>
+<div class="outline-text-3" id="text-1-3">
+<ul class="org-ul">
+<li>Armor Class (AC): 11</li>
+<li>Initiative:</li>
+<li>Speed: 30</li>
+<li>Hit Points (HP)
+<ul class="org-ul">
+<li>Current: 28</li>
+<li>Maximum: 28</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgab2ffbe" class="outline-3">
+<h3 id="orgab2ffbe"><span class="section-number-3">1.4.</span> Skills</h3>
+<div class="outline-text-3" id="text-1-4">
+<ul class="org-ul">
+<li>Acrobatics (DEX): +1</li>
+<li>Animal Handling (WIS): +3</li>
+<li>Arcana (INT): +2</li>
+<li>Athletics (STR): -3</li>
+<li>Deception (CHA): +9</li>
+<li>History (INT): +2</li>
+<li>Insight (WIS): +5</li>
+<li>Intimidation (CHA): +7</li>
+<li>Investigation (INT): +9</li>
+<li>Medicine (WIS): +3</li>
+<li>Nature (INT): +2</li>
+<li>Perception (WIS): +3</li>
+<li>Performance (CHA): +9</li>
+<li>Persuasion (CHA): +9</li>
+<li>Religion (INT): +2</li>
+<li>Sleight of Hand (DEX): +1</li>
+<li>Stealth (DEX): +5</li>
+<li>Survival (WIS): +3</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgf16f896" class="outline-3">
+<h3 id="orgf16f896"><span class="section-number-3">1.5.</span> Equipment</h3>
+<div class="outline-text-3" id="text-1-5">
+<ul class="org-ul">
+<li>Weapons
+<ul class="org-ul">
+<li>Proficient: Simple Weapons</li>
+<li>Equipped: None</li>
+</ul></li>
+<li>Armor
+<ul class="org-ul">
+<li>Proficient: Light Armor</li>
+<li>Equipped: None</li>
+</ul></li>
+<li>Other Equipment
+<ul class="org-ul">
+<li>Deck of Cards</li>
+<li>Strands of Wheat</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org5140120" class="outline-3">
+<h3 id="org5140120"><span class="section-number-3">1.6.</span> Features &amp; Traits</h3>
+<div class="outline-text-3" id="text-1-6">
+<ul class="org-ul">
+<li>Class Features
+<ul class="org-ul">
+<li>Song of Rest</li>
+<li>Cutting Words</li>
+</ul></li>
+<li>Race Traits
+<ul class="org-ul">
+<li>Feat: Tough</li>
+<li>Feat: Actor</li>
+</ul></li>
+<li>Background Features
+<ul class="org-ul">
+<li>Gambling</li>
+</ul></li>
+<li>Languages:
+<ul class="org-ul">
+<li>Common</li>
+<li>Araihairac</li>
+</ul></li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org86d0379" class="outline-3">
+<h3 id="org86d0379"><span class="section-number-3">1.7.</span> Backstory</h3>
+<div class="outline-text-3" id="text-1-7">
+<p>
+In the gritty streets of Manem-Seika, a figure known as &ldquo;Nine of Spades&rdquo; emerged from the shadows, blending the flamboyance of a bard with the rough edges of a hardened gambler. Born under the less-than-auspicious name of Harold Gallagher, this charismatic and unpredictable soul found solace in the chaos of the city, earning his moniker from the playing card tattooed on his forearm – the Nine of Spades.
+</p>
+
+<p>
+Harold, was known for his quick wit, silver tongue, and an insatiable appetite for risk. A natural-born storyteller, Harold weaved tales of his own misadventures, glorifying the highs and downplaying the lows. His charm could captivate even the most skeptical of hearts, but it often masked the harsh reality he faced.
+</p>
+
+<p>
+An ill-fated night at the Gambler&rsquo;s Den caused Harold&rsquo;s descent into misfortune. Nine of Spades rolled the dice, both in games of chance and in the game of life. The result was a devastating loss that left him penniless and at the mercy of the city&rsquo;s unforgiving streets.
+</p>
+
+<p>
+Harold, now Nine of Spades, became a fixture in the local shelters and alleys. He relied on the generosity of strangers, using his charm to elicit sympathy and support. The debts he owed, not just in turnips but in favors and promises, stacked up like a precarious house of cards.
+</p>
+
+<p>
+Despite the odds, Nine of Spades refused to be defeated. With a worn-out deck of cards as his new medium, he continued to entertain and manipulate. He charmed his way into odd jobs, gathered information through his knack for gossip, and occasionally resorted to less-than-legal means to survive.
+</p>
+
+<p>
+Despite the chaos that surrounded him, Nine of Spades retained an air of defiance and unapologetic authenticity. He lived by his own set of rules, navigating the turbulent currents of Manem-Seika with a grin on his face and the Nine of Spades proudly displayed for all to see. Whether it was a con, a game of chance, or a heartfelt tale spun under the moonlit sky, Nine of Spades embraced each moment, determined to reclaim his lost fortunes and rewrite the chapters of his unpredictable life.
+</p>
+</div>
+</div>
+<div id="outline-container-orgb0ccddf" class="outline-3">
+<h3 id="orgb0ccddf"><span class="section-number-3">1.8.</span> Notes</h3>
+</div>
+</div>
+<div id="outline-container-org54fbcad" class="outline-2">
+<h2 id="org54fbcad"><span class="section-number-2">2.</span> Spells</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org6d65b0a" class="outline-3">
+<h3 id="org6d65b0a"><span class="section-number-3">2.1.</span> Cantrips</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-orgbb16d1c" class="outline-4">
+<h4 id="orgbb16d1c"><span class="section-number-4">2.1.1.</span> Vicious Mockery</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<p>
+You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
+</p>
+
+<p>
+This spell&rsquo;s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
+</p>
+</div>
+</div>
+<div id="outline-container-org71c7ead" class="outline-4">
+<h4 id="org71c7ead"><span class="section-number-4">2.1.2.</span> Minor Illusion</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<p>
+You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.
+</p>
+
+<p>
+If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else&rsquo;s voice, a lion&rsquo;s roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.
+</p>
+
+<p>
+If you create an image of an object—such as a chair, muddy footprints, or a small chest—it must be no larger than a 5-foot cube. The image can&rsquo;t create sound, light, smell, or any other sensory effect. Physical interaction with the image reveals it to be an illusion, because things can pass through it.
+</p>
+
+<p>
+If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
+</p>
+</div>
+</div>
+<div id="outline-container-org62067fe" class="outline-4">
+<h4 id="org62067fe"><span class="section-number-4">2.1.3.</span> Prestidigitation</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<p>
+This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:
+</p>
+
+<ul class="org-ul">
+<li>You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.</li>
+<li>You instantaneously light or snuff out a candle, a torch, or a small campfire.</li>
+<li>You instantaneously clean or soil an object no larger than 1 cubic foot.</li>
+<li>You chill, warm, or flavor up to 1 cubic foot of nonliving material for 1 hour.</li>
+<li>You make a color, a small mark, or a symbol appear on an object or a surface for 1 hour.</li>
+<li>You create a nonmagical trinket or an illusory image that can fit in your hand and that lasts until the end of your next turn.</li>
+</ul>
+<p>
+If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org4110e3d" class="outline-3">
+<h3 id="org4110e3d"><span class="section-number-3">2.2.</span> First Level</h3>
+<div class="outline-text-3" id="text-2-2">
+</div>
+<div id="outline-container-org898b047" class="outline-4">
+<h4 id="org898b047"><span class="section-number-4">2.2.1.</span> Dissonant Whispers</h4>
+<div class="outline-text-4" id="text-2-2-1">
+<p>
+You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn&rsquo;t move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn&rsquo;t have to move away. A deafened creature automatically succeeds on the save.
+</p>
+
+<p>
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
+</p>
+</div>
+</div>
+<div id="outline-container-org150b2aa" class="outline-4">
+<h4 id="org150b2aa"><span class="section-number-4">2.2.2.</span> Sleep</h4>
+<div class="outline-text-4" id="text-2-2-2">
+<p>
+This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).
+</p>
+
+<p>
+Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature&rsquo;s hit points from the total before moving on to the creature with the next lowest hit points. A creature&rsquo;s hit points must be equal to or less than the remaining total for that creature to be affected.
+</p>
+
+<p>
+Undead and creatures immune to being charmed aren&rsquo;t affected by this spell.
+</p>
+
+<p>
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.
+</p>
+</div>
+</div>
+<div id="outline-container-org8a6ee08" class="outline-4">
+<h4 id="org8a6ee08"><span class="section-number-4">2.2.3.</span> Tasha&rsquo;s Hideous Laughter</h4>
+<div class="outline-text-4" id="text-2-2-3">
+<p>
+A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn&rsquo;t affected.
+</p>
+
+<p>
+At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it&rsquo;s triggered by damage. On a success, the spell ends.
+</p>
+</div>
+</div>
+<div id="outline-container-org09d2ee3" class="outline-4">
+<h4 id="org09d2ee3"><span class="section-number-4">2.2.4.</span> Distort Value</h4>
+<div class="outline-text-4" id="text-2-2-4">
+<p>
+Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.
+</p>
+
+<p>
+You cast this spell on an object no more than 1 foot on a side, doubling the object&rsquo;s perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.
+</p>
+
+<p>
+At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st.
+</p>
+</div>
+</div>
+</div>
+<div id="outline-container-org5e90c6c" class="outline-3">
+<h3 id="org5e90c6c"><span class="section-number-3">2.3.</span> Second Level</h3>
+<div class="outline-text-3" id="text-2-3">
+</div>
+<div id="outline-container-orga7c8fbf" class="outline-4">
+<h4 id="orga7c8fbf"><span class="section-number-4">2.3.1.</span> Enlarge/Reduce</h4>
+<div class="outline-text-4" id="text-2-3-1">
+<p>
+You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.
+</p>
+
+<p>
+If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.
+</p>
+
+<p>
+Enlarge. The target&rsquo;s size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category—from Medium to Large, for example. If there isn&rsquo;t enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target&rsquo;s weapons also grow to match its new size. While these weapons are enlarged, the target&rsquo;s attacks with them deal 1d4 extra damage.
+</p>
+
+<p>
+Reduce. The target&rsquo;s size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target&rsquo;s weapons also shrink to match its new size. While these weapons are reduced, the target&rsquo;s attacks with them deal 1d4 less damage (this can&rsquo;t reduce the damage below 1).
+</p>
+</div>
+</div>
+<div id="outline-container-org0721cbd" class="outline-4">
+<h4 id="org0721cbd"><span class="section-number-4">2.3.2.</span> Nathair&rsquo;s Mischeif</h4>
+<div class="outline-text-4" id="text-2-3-2">
+<p>
+You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.
+</p>
+
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides">
+
+
+<colgroup>
+<col  class="org-right" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-right">d4</th>
+<th scope="col" class="org-left">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-right">1</td>
+<td class="org-left">The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next</td>
+</tr>
+
+<tr>
+<td class="org-right">2</td>
+<td class="org-left">Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces.</td>
+</tr>
+
+<tr>
+<td class="org-right">3</td>
+<td class="org-left">Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction.</td>
+</tr>
+
+<tr>
+<td class="org-right">4</td>
+<td class="org-left">Drops of molasses hover in the cube, making it difficult terrain until the start of your next</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="outline-container-org2ccbe1e" class="outline-4">
+<h4 id="org2ccbe1e"><span class="section-number-4">2.3.3.</span> Suggestion</h4>
+<div class="outline-text-4" id="text-2-3-3">
+<p>
+You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can&rsquo;t be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.
+</p>
+
+<p>
+The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.
+</p>
+
+<p>
+You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn&rsquo;t met before the spell expires, the activity isn&rsquo;t performed.
+</p>
+
+<p>
+If you or any of your companions damage the target, the spell ends.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="author">Author: Pulkit Mohata</p>
+<p class="date">Created: 2024-03-06 Wed 19:40</p>
+</div>
+</body>
+</html>

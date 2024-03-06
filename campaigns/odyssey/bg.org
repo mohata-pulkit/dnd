@@ -1,0 +1,28 @@
+#+TITLE: Background Guide
+
+* Introduction
+* History
+** Pre Modern Era
+** Modern Era
+* Geography
+** Climate
+** Topography
+** Hydrography
+* Politics
+** Governments
+** Military
+** Law and Justice
+** Active Treaties
+* Economy
+** Industry
+** Technology
+** Transport
+** Trade
+* Demographics
+** Races
+** Languages
+* Culture
+** Art
+** Philosophy
+** Religion
+** Food

@@ -1,0 +1,87 @@
+html {
+    font-family: "Eczar", "IBM Plex Serif", "Georgia", "Garamond", "Times New Roman", serif;
+
+    --bg-color: #221111;
+    --fg-color: #FFEEDD;
+    --ac-color: #EEBB66;
+    --hy-color: #BBEE66;
+
+    font-size: 14pt;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--fg-color);
+    word-wrap: normal;
+    word-break: normal;
+    hyphens: auto;
+}
+
+#content{
+    margin: 0;
+    padding: 4em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Eczar", "IBM Plex Serif", "Georgia", "Garamond", "Times New Roman", serif;
+    font-weight: bold;
+    color: var(--ac-color);
+}
+
+li::marker {
+    color: var(--ac-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--hy-color);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: var(--ac-color);
+}
+
+thead{
+    color: var(--ac-color);
+}
+
+::-webkit-scrollbar{
+    width: 0.5em;
+}
+
+::-webkit-scrollbar-track{
+    padding: 0.1em;
+    background: var(--bg-color);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--hy-color);
+    border-radius: 0.25em;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: var(--ac-color);
+}
+
+@media(prefers-color-scheme: light){
+    html{
+        --bg-color: #FFEEDD;
+        --fg-color: #221111;
+        --ac-color: #884422;
+        --hy-color: #448822;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    html{
+        font-size: 8pt;
+    }
+    #content{
+        padding:1em;
+    }
+}
