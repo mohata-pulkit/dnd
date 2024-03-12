@@ -1,4 +1,4 @@
-% Created 2024-02-23 Fri 04:32
+% Created 2024-03-10 Sun 18:29
 % Intended LaTeX compiler: pdflatex
 \documentclass[11pt]{article}
 \usepackage[utf8]{inputenc}
@@ -15,6 +15,7 @@
 \usepackage{braket}
 \usepackage{plex-serif}
 \usepackage[margin=2cm]{geometry}
+\usepackage{float}
 \author{Pulkit Mohata}
 \date{\today}
 \title{Nine of Spades}
@@ -25,15 +26,15 @@
  pdfsubject={},
  pdfcreator={Emacs 29.2 (Org mode 9.7)}, 
  pdflang={English}}
+\usepackage{biblatex}
+
 \begin{document}
 
 \maketitle
 \tableofcontents
 
-\section{Character Sheet}
-\label{sec:org350ca8f}
-\subsection{Basics}
-\label{sec:org87d1fdf}
+\section{Basics}
+\label{sec:org9434b90}
 \begin{itemize}
 \item Name: Nine of Spades
 \item Race: Human
@@ -41,8 +42,8 @@
 \item Background: Gambler
 \item Alignment: N
 \end{itemize}
-\subsection{Abilities}
-\label{sec:org173e03b}
+\section{Abilities}
+\label{sec:org3218698}
 \begin{itemize}
 \item Strength (STR): 5
 \item Dexterity (DEX): 12
@@ -51,8 +52,8 @@
 \item Wisdom (WIS): 16
 \item Charisma (CHA): 19
 \end{itemize}
-\subsection{Proficiencies}
-\label{sec:org9e70fdb}
+\section{Combat and Movement}
+\label{sec:org26e9764}
 \begin{itemize}
 \item Armor Class (AC): 11
 \item Initiative:
@@ -63,8 +64,8 @@
 \item Maximum: 28
 \end{itemize}
 \end{itemize}
-\subsection{Skills}
-\label{sec:orga10861f}
+\section{Skills}
+\label{sec:org2ec59d3}
 \begin{itemize}
 \item Acrobatics (DEX): +1
 \item Animal Handling (WIS): +3
@@ -74,7 +75,7 @@
 \item History (INT): +2
 \item Insight (WIS): +5
 \item Intimidation (CHA): +7
-\item Investigation (INT): +9
+\item Investigation (INT): +4
 \item Medicine (WIS): +3
 \item Nature (INT): +2
 \item Perception (WIS): +3
@@ -85,33 +86,71 @@
 \item Stealth (DEX): +5
 \item Survival (WIS): +3
 \end{itemize}
-\subsection{Equipment}
-\label{sec:org576a5e6}
+\section{Equipment}
+\label{sec:orgc2f7e93}
 \begin{itemize}
-\item Weapons: None
-\item Armor: None
-\item Other Equipment:
+\item Weapons
+\begin{itemize}
+\item Proficient: Simple Weapons
+\item Equipped: None
 \end{itemize}
-\subsection{Features \& Traits}
-\label{sec:org9bab097}
+\item Armor
 \begin{itemize}
-\item Class Features
-\begin{itemize}
-\item Song of Rest
-\item Cutting Words
+\item Proficient: Light Armor
+\item Equipped: None
 \end{itemize}
-\item Race Traits
+\item Other Equipment
 \begin{itemize}
-\item Feat: Tough
+\item Deck of Cards
+\item Strands of Wheat
 \end{itemize}
-\item Background Features
+\end{itemize}
+\section{Features \& Traits}
+\label{sec:org90acd03}
+\subsection{Class Features}
+\label{sec:org10a2f50}
+\subsubsection{Bardic Inspiration}
+\label{sec:org1d53d13}
+You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+\subsubsection{Song of Rest}
+\label{sec:orge6c33a2}
+Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra 1d6 hit points.
+
+The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
+\subsubsection{Cutting Words}
+\label{sec:orgc04a5f2}
+Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.
+\subsection{Race Traits}
+\label{sec:orgefaa30c}
+\subsubsection{Feat: Tough}
+\label{sec:orga66f1a5}
+Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
+\subsubsection{Feat: Actor}
+\label{sec:org3b11506}
+Skilled at mimicry and dramatics, you gain the following benefits:
+\begin{itemize}
+\item Increase your Charisma score by 1, to a maximum of 20.
+\item You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
+\item You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
+\end{itemize}
+\subsection{Other Features}
+\label{sec:org3cd41db}
 \begin{itemize}
 \item Gambling
+\item Languages:
+\begin{itemize}
+\item Common
+\item Araihairac
 \end{itemize}
-\item Other Traits
 \end{itemize}
-\subsection{Backstory}
-\label{sec:orge71abd9}
+\section{Backstory}
+\label{sec:orgc68cc7e}
 In the gritty streets of Manem-Seika, a figure known as ``Nine of Spades'' emerged from the shadows, blending the flamboyance of a bard with the rough edges of a hardened gambler. Born under the less-than-auspicious name of Harold Gallagher, this charismatic and unpredictable soul found solace in the chaos of the city, earning his moniker from the playing card tattooed on his forearm – the Nine of Spades.
 
 Harold, was known for his quick wit, silver tongue, and an insatiable appetite for risk. A natural-born storyteller, Harold weaved tales of his own misadventures, glorifying the highs and downplaying the lows. His charm could captivate even the most skeptical of hearts, but it often masked the harsh reality he faced.
@@ -123,19 +162,17 @@ Harold, now Nine of Spades, became a fixture in the local shelters and alleys. H
 Despite the odds, Nine of Spades refused to be defeated. With a worn-out deck of cards as his new medium, he continued to entertain and manipulate. He charmed his way into odd jobs, gathered information through his knack for gossip, and occasionally resorted to less-than-legal means to survive.
 
 Despite the chaos that surrounded him, Nine of Spades retained an air of defiance and unapologetic authenticity. He lived by his own set of rules, navigating the turbulent currents of Manem-Seika with a grin on his face and the Nine of Spades proudly displayed for all to see. Whether it was a con, a game of chance, or a heartfelt tale spun under the moonlit sky, Nine of Spades embraced each moment, determined to reclaim his lost fortunes and rewrite the chapters of his unpredictable life.
-\subsection{Notes}
-\label{sec:org480b2fa}
 \section{Spells}
-\label{sec:org6de41ae}
+\label{sec:org7baaee5}
 \subsection{Cantrips}
-\label{sec:org53780dd}
+\label{sec:orge851b0e}
 \subsubsection{Vicious Mockery}
-\label{sec:org0c78474}
+\label{sec:org7aa17c8}
 You unleash a string of insults laced with subtle enchantments at a creature you can see within range. If the target can hear you (though it need not understand you), it must succeed on a Wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.
 
 This spell's damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4).
 \subsubsection{Minor Illusion}
-\label{sec:org4009868}
+\label{sec:org6637df8}
 You create a sound or an image of an object within range that lasts for the duration. The illusion also ends if you dismiss it as an action or cast this spell again.
 
 If you create a sound, its volume can range from a whisper to a scream. It can be your voice, someone else's voice, a lion's roar, a beating of drums, or any other sound you choose. The sound continues unabated throughout the duration, or you can make discrete sounds at different times before the spell ends.
@@ -144,9 +181,8 @@ If you create an image of an object—such as a chair, muddy footprints, or a sm
 
 If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
 \subsubsection{Prestidigitation}
-\label{sec:org4ea7efc}
+\label{sec:org3eff059}
 This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:
-
 \begin{itemize}
 \item You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.
 \item You instantaneously light or snuff out a candle, a torch, or a small campfire.
@@ -157,14 +193,14 @@ This spell is a minor magical trick that novice spellcasters use for practice. Y
 \end{itemize}
 If you cast this spell multiple times, you can have up to three of its non-instantaneous effects active at a time, and you can dismiss such an effect as an action.
 \subsection{First Level}
-\label{sec:org140db20}
+\label{sec:orgd4d27d2}
 \subsubsection{Dissonant Whispers}
-\label{sec:org77e32b0}
+\label{sec:org43c8d20}
 You whisper a discordant melody that only one creature of your choice within range can hear, wracking it with terrible pain. The target must make a Wisdom saving throw. On a failed save, it takes 3d6 psychic damage and must immediately use its reaction, if available, to move as far as its speed allows away from you. The creature doesn't move into obviously dangerous ground, such as a fire or a pit. On a successful save, the target takes half as much damage and doesn't have to move away. A deafened creature automatically succeeds on the save.
 
 At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d6 for each slot level above 1st.
 \subsubsection{Sleep}
-\label{sec:org3cde44e}
+\label{sec:orgb2fc6e5}
 This spell sends creatures into a magical slumber. Roll 5d8; the total is how many hit points of creatures this spell can affect. Creatures within 20 feet of a point you choose within range are affected in ascending order of their current hit points (ignoring unconscious creatures).
 
 Starting with the creature that has the lowest current hit points, each creature affected by this spell falls unconscious until the spell ends, the sleeper takes damage, or someone uses an action to shake or slap the sleeper awake. Subtract each creature's hit points from the total before moving on to the creature with the next lowest hit points. A creature's hit points must be equal to or less than the remaining total for that creature to be affected.
@@ -173,21 +209,21 @@ Undead and creatures immune to being charmed aren't affected by this spell.
 
 At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, roll an additional 2d8 for each slot level above 1st.
 \subsubsection{Tasha's Hideous Laughter}
-\label{sec:org2fd942b}
+\label{sec:orgf14ad3b}
 A creature of your choice that you can see within range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a Wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the duration. A creature with an Intelligence score of 4 or less isn't affected.
 
 At the end of each of its turns, and each time it takes damage, the target can make another Wisdom saving throw. The target has advantage on the saving throw if it's triggered by damage. On a success, the spell ends.
 \subsubsection{Distort Value}
-\label{sec:orgf03a7ea}
+\label{sec:org9e35d47}
 Do you need to squeeze a few more gold pieces out of a merchant as you try to sell that weird octopus statue you liberated from the chaos temple? Do you need to downplay the worth of some magical assets when the tax collector stops by? Distort value has you covered.
 
 You cast this spell on an object no more than 1 foot on a side, doubling the object's perceived value by adding illusory flourishes or polish to it, or reducing its perceived value by half with the help of illusory scratches, dents, and other unsightly features. Anyone examining the object can ascertain its true value with a successful Intelligence (Investigation) check against your spell save DC.
 
 At Higher Levels. When you cast this spell using a spell slot of 2nd level or higher, the maximum size of the object increases by 1 foot for each slot level above 1st.
 \subsection{Second Level}
-\label{sec:orgc0c2352}
+\label{sec:org815e177}
 \subsubsection{Enlarge/Reduce}
-\label{sec:orga94d6d6}
+\label{sec:org2853ed4}
 You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.
 
 If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.
@@ -196,23 +232,27 @@ Enlarge. The target's size doubles in all dimensions, and its weight is multipli
 
 Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category—from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1).
 \subsubsection{Nathair's Mischeif}
-\label{sec:org817f3ef}
+\label{sec:orgec5dd7b}
 
 You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.
 
-Mischievous Surge
 \begin{center}
-\begin{tabular}{rl}
+\begin{tabular}{|l|p{15cm}|}
+\hline
 d4 & Effect\\
 \hline
 1 & The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next\\
+\hline
 2 & Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces.\\
+\hline
 3 & Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction.\\
+\hline
 4 & Drops of molasses hover in the cube, making it difficult terrain until the start of your next\\
+\hline
 \end{tabular}
 \end{center}
 \subsubsection{Suggestion}
-\label{sec:org2a7579c}
+\label{sec:orga379f03}
 You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.
 
 The target must make a Wisdom saving throw. On a failed save, it pursues the course of action you described to the best of its ability. The suggested course of action can continue for the entire duration. If the suggested activity can be completed in a shorter time, the spell ends when the subject finishes what it was asked to do.
@@ -220,8 +260,15 @@ The target must make a Wisdom saving throw. On a failed save, it pursues the cou
 You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.
 
 If you or any of your companions damage the target, the spell ends.
-\section{Campaign Notes}
-\label{sec:org1b1d505}
-\section{DM Notes}
-\label{sec:orge6fca54}
+\section{Notes}
+\label{sec:org2aabcfd}
+\begin{itemize}
+\item Cursed by Jeremiah
+\begin{itemize}
+\item Has Visions
+\item Must exorcise the demon
+\item It is north-west of our current location
+\item Gonna do some jesus shit
+\end{itemize}
+\end{itemize}
 \end{document}

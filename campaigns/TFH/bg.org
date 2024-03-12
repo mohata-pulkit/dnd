@@ -1,0 +1,151 @@
+#+title: A Seminal Tragedy
+#+subtitle: Player's Background Guide
+#+author: Pulkit Mohata
+#+email: mohata.pulkit@gmail.com
+
+* Introduction
+:PROPERTIES:
+:CUSTOM_ID: sec:org875150f
+:END:
+#+BEGIN_QUOTE
+It was the best of times, it was the worst of times. \\
+---Charles Dickens, A tale of two cities
+#+END_QUOTE
+It had been over a century since the last conflict among the civilised nations of Ceria. The campaign against Bucephal's legions had almost destroyed all of civilisation, and forced all the civilised nations to work towards peace. What followed was a generation of great people, who did everything to ensure another such catastrophe doesn't befall Ceria. As the saying goes, hard times make hard people, hard people make soft times, and soft times makes soft people. As the generation of people forged in the bowels of war dies, a new generation which has only ever known peace enters the politics of the world.
+
+Peace however, is a fragile thing, and even the smallest disturbance can lead to absolute devastation. The recent assassination of the king of ..., the plague in the north and the growing influence of the ... trade company would all be easily resolved not half a decade ago, but now it seems like these could spark another era of conflict. In the east, there are rumors of cold winds returning to Ceria, after a millenia of summer heat; and cold winds could only mean one thing: the age of men is over, the age of monsters is about to begin...
+* History
+:PROPERTIES:
+:CUSTOM_ID: sec:org9b4307f
+:END:
+** Pre Modern Era
+:PROPERTIES:
+:CUSTOM_ID: sec:org12300a5
+:END:
+*** The Age of Prosperity
+#+BEGIN_QUOTE
+To ravage, to slaughter, to usurp under false titles, they call empire; \\
+and where they make a desert, they call it peace. \\
+---Calgacus
+#+END_QUOTE
+The age of prosperity was the period between ~4000 PME and 1750 PME, largely dominated by the Empire of Lonium. Legend has it that the the Lord of Civilisation, Sandall came down to earth to found the city of Lonium as a safehaven for his loyal followers. Not much is known about the early history of Lonium, and as such this period is considered mostly mythical. The oldest written records date back to 2541 PME, when under the reign of Consul Gaius Piusidia Simena (also known as Simena Magnus), the Lonium republic expands to cover all lands south of the river ... After this we have a fairly robust paper trail covering the republics various conquests.
+**** The Lonian Republic: Avian Wars
+Perhaps the republic's greatest moment of glory is in 2435 PME, when they defeat the Aarakocrai in the First Avian War. The First Avian War was a hard fought Lonium victory. The much larger, much more powerful Aarakocra Empire had the upper hand initially, thanks to their ability to fly. However, they underestimated human ingeniousity. It is said that to counter the Aarakocra, the Lonians built large ships with wings that could fly. They flew these ships into the towers of the Aarakocran cities, decimating them and leaving the Aarakocra defenseless. Eventually the Aarakocra surrendered their territories east of the mountains to the Lonians, in a humiliating defeat. This was the end of the First Avian War, but the start of a rivalry that continues to this day, albeit in a much less intense manner.
+
+The Lonians were industrious and immediately began exploiting their newly acquired land. The inhabitants of the land were made slaves, and the resources of the land were pillaged. What goes around comes back around, and the gods would not be blind. It's possible if the Lonians had treated the land better that they could have avoided their fate, however that is a topic for much later. For now the Lonians were enjoying their ill-gotten gains with all the hedonism that they are known for. They had assumed the Aarakocrai would leave them alone after their humiliating the defeat in the war. They were wrong.
+
+In the First Avian War, a group of Aarakocran soldiers, led by the general Aemos Sabara had successfully countered the Lonian attacks, by learning how to fight against their flying ships. The Aarakocran surrender felt like a betrayal to Aemos and his men, an admission of defeat now that they had finally got the tools to win. Nevertheless, Aemos accepted the defeat, but vowed to take revenge. After the war, he gathered his men and they headed south, to the dried salt lakes to train for their revenge. After conquering the vast plains for the Aarakocran empire, they start training their men, and planning their revenge.
+
+Aemos spends the next 7 years creating the perfect killing machine; creating the warforged. These robotic machinations did not need to sleep, eat, drink or rest. They were trained by Aemos himself in the art of war, and they could obliterate any army on land, in the air, or on sea. Unfortunately Aemos would not be able to see his plan to fruition, since he would die of Avian flu a few months before the invasion were to begin. In his place, the invasion would be led by his son Aegon Sabara, better known in the west as Aegon the Ravager.
+
+Aegon took his army of warforged, 500,000 strong, through the mountains and into the Lonium heartland. No army of flesh and bone could have survived the trip through the mountains, but the warforged were not made of flesh and bone. Thus began the second the Avian War in 2422 PME, with Aegon and the warforged burning through the Lonian heartland. Any natives who were found were freed and any Lonians who didn't surrendered were killed with extreme prejudice. Before long Aegon was on the the gates of Lonium itself, and it seemed like all was lost for the Lonians.
+
+In a last ditch attempt, the Lonians would send a young general by the name of Fliuso Gusiusen Minusa. We now know of him as Minusa Fortiusa. Minusa was able to outmanuever Aegon's army, encircling them to stop their advance. This wouldn't stop them forever, but it bought him time. Having captured a warforged, they were able to reverse engineer the design of the machines, and create a virus that would pacify them. The dangerous task of spreading this virus among the warforged was taken up by Minusa himself, and thus ended the second Avian war. Aegon and his men chose to die rather than be captured, and the honorable Minusa granted them their last wish, by executing them himself.
+
+In the ensuing peace, all lands of the Aarakocran empire were annexed by the Empire of Lonium, and entire Aarakocran cities west of the mountains were razed, leaving nothing behind but ashes. Aarakocran men were enslaved to do hard labour, and women were taken by the Lonians as objects of pleasure. Their lands were exploited for stone, and their forests were destroyed timber. Only the largest of Aarakocran cities were allowed to remain, as a cruel act of mercy; leaving behind a monument after destroying the civilisation that created it.
+**** The Lonian Republic: Aurian Junius Antonius and Revolution
+
+*** The Long Summer
+#+BEGIN_QUOTE
+Nothing beside remains. Round the decay \\
+Of that colossal Wreck, boundless and bare \\
+The lone and level sands stretch far away. \\
+---Percy Bysshe Shelly, Ozymandias
+#+END_QUOTE
+** Modern Era
+:PROPERTIES:
+:CUSTOM_ID: sec:org71db4fc
+:END:
+*** The New Age of Man
+#+BEGIN_QUOTE
+Life, uh, finds a way \\
+---Dr. Ian Malcolm, Jurassic Park
+#+END_QUOTE
+* Geography
+:PROPERTIES:
+:CUSTOM_ID: sec:orge100106
+:END:
+** Climate
+:PROPERTIES:
+:CUSTOM_ID: sec:org27336ad
+:END:
+** Topography
+:PROPERTIES:
+:CUSTOM_ID: sec:org2736a9c
+:END:
+** Hydrography
+:PROPERTIES:
+:CUSTOM_ID: sec:org87a22c0
+:END:
+* Politics
+:PROPERTIES:
+:CUSTOM_ID: sec:org142a14c
+:END:
+** Governments
+:PROPERTIES:
+:CUSTOM_ID: sec:orgf585d61
+:END:
+** Military
+:PROPERTIES:
+:CUSTOM_ID: sec:org2d56a5c
+:END:
+** Law and Justice
+:PROPERTIES:
+:CUSTOM_ID: sec:org1aff790
+:END:
+** Active Treaties
+:PROPERTIES:
+:CUSTOM_ID: sec:orgdbf48a2
+:END:
+* Economy
+:PROPERTIES:
+:CUSTOM_ID: sec:org512ea7b
+:END:
+** Industry
+:PROPERTIES:
+:CUSTOM_ID: sec:orgceb1c9d
+:END:
+** Technology
+:PROPERTIES:
+:CUSTOM_ID: sec:org70358be
+:END:
+** Transport
+:PROPERTIES:
+:CUSTOM_ID: sec:org34af00f
+:END:
+** Trade
+:PROPERTIES:
+:CUSTOM_ID: sec:org8962678
+:END:
+* Demographics
+:PROPERTIES:
+:CUSTOM_ID: sec:org07c9506
+:END:
+** Races
+:PROPERTIES:
+:CUSTOM_ID: sec:org90e5d67
+:END:
+** Languages
+:PROPERTIES:
+:CUSTOM_ID: sec:orga649288
+:END:
+* Culture
+:PROPERTIES:
+:CUSTOM_ID: sec:org3e12321
+:END:
+** Art
+:PROPERTIES:
+:CUSTOM_ID: sec:orgfad0d51
+:END:
+** Philosophy
+:PROPERTIES:
+:CUSTOM_ID: sec:org9c49a8f
+:END:
+** Religion
+:PROPERTIES:
+:CUSTOM_ID: sec:org7243035
+:END:
+** Food
+:PROPERTIES:
+:CUSTOM_ID: sec:org20fd693
+:END:

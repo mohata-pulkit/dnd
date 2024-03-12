@@ -1,13 +1,12 @@
 html {
-    font-family: "Eczar", "IBM Plex Serif", "Georgia", "Garamond", "Times New Roman", serif;
+    font-family: "Jim Nightshade", cursive;
 
-    --bg-color: #221111;
+    --bg-color: #442222;
     --fg-color: #FFEEDD;
     --ac-color: #EEBB66;
     --hy-color: #BBEE66;
 
-    font-size: 14pt;
-    font-weight: lighter;
+    font-size: 20pt;
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
@@ -28,8 +27,8 @@ html {
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-family: "IBM Plex Serif", "Georgia", "Garamond", "Times New Roman", serif;
-    font-weight: 500;
+    font-family: "Great Vibes", "Jim Nightshade", cursive;
+    font-weight: normal;
     color: var(--ac-color);
 }
 
@@ -72,7 +71,7 @@ thead{
 @media(prefers-color-scheme: light){
     html{
         --bg-color: #FFEEDD;
-        --fg-color: #221111;
+        --fg-color: #442222;
         --ac-color: #884422;
         --hy-color: #448822;
     }

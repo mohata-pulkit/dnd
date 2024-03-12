@@ -1,28 +1,27 @@
 #+title: Nine of Spades
 #+author: Pulkit Mohata
 
-* Character Sheet
-** Basics
+* Basics
 - Name: Nine of Spades
 - Race: Human
 - Class: Bard
 - Background: Gambler
 - Alignment: N
-** Abilities
+* Abilities
 - Strength (STR): 5
 - Dexterity (DEX): 12
 - Constitution (CON): 12
 - Intelligence (INT): 13
 - Wisdom (WIS): 16
 - Charisma (CHA): 19
-** Combat and Movement
+* Combat and Movement
 - Armor Class (AC): 11
 - Initiative:
 - Speed: 30
 - Hit Points (HP)
   - Current: 28
   - Maximum: 28
-** Skills
+* Skills
 - Acrobatics (DEX): +1
 - Animal Handling (WIS): +3
 - Arcana (INT): +2
@@ -31,7 +30,7 @@
 - History (INT): +2
 - Insight (WIS): +5
 - Intimidation (CHA): +7
-- Investigation (INT): +9
+- Investigation (INT): +4
 - Medicine (WIS): +3
 - Nature (INT): +2
 - Perception (WIS): +3
@@ -41,7 +40,7 @@
 - Sleight of Hand (DEX): +1
 - Stealth (DEX): +5
 - Survival (WIS): +3
-** Equipment
+* Equipment
 - Weapons
   - Proficient: Simple Weapons
   - Equipped: None
@@ -51,19 +50,36 @@
 - Other Equipment
   - Deck of Cards
   - Strands of Wheat
-** Features & Traits
-- Class Features
-  - Song of Rest
-  - Cutting Words
-- Race Traits
-  - Feat: Tough
-  - Feat: Actor
-- Background Features
-  - Gambling
+* Features & Traits
+** Class Features
+*** Bardic Inspiration
+You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6.
+
+Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. Once the Bardic Inspiration die is rolled, it is lost. A creature can have only one Bardic Inspiration die at a time.
+
+You can use this feature a number of times equal to your Charisma modifier (a minimum of once). You regain any expended uses when you finish a long rest.
+
+Your Bardic Inspiration die changes when you reach certain levels in this class. The die becomes a d8 at 5th level, a d10 at 10th level, and a d12 at 15th level.
+*** Song of Rest
+Beginning at 2nd level, you can use soothing music or oration to help revitalize your wounded allies during a short rest. If you or any friendly creatures who can hear your performance regain hit points by spending Hit Dice at the end of the short rest, each of those creatures regains an extra 1d6 hit points.
+
+The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.
+*** Cutting Words
+Also at 3rd level, you learn how to use your wit to distract, confuse, and otherwise sap the confidence and competence of others. When a creature that you can see within 60 feet of you makes an attack roll, an ability check, or a damage roll, you can use your reaction to expend one of your uses of Bardic Inspiration, rolling a Bardic Inspiration die and subtracting the number rolled from the creature's roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can't hear you or if it's immune to being charmed.
+** Race Traits
+*** Feat: Tough
+Your hit point maximum increases by an amount equal to twice your level when you gain this feat. Whenever you gain a level thereafter, your hit point maximum increases by an additional 2 hit points.
+*** Feat: Actor
+Skilled at mimicry and dramatics, you gain the following benefits:
+- Increase your Charisma score by 1, to a maximum of 20.
+- You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
+- You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
+** Other Features
+- Gambling
 - Languages:
   - Common
   - Araihairac
-** Backstory
+* Backstory
 In the gritty streets of Manem-Seika, a figure known as "Nine of Spades" emerged from the shadows, blending the flamboyance of a bard with the rough edges of a hardened gambler. Born under the less-than-auspicious name of Harold Gallagher, this charismatic and unpredictable soul found solace in the chaos of the city, earning his moniker from the playing card tattooed on his forearm – the Nine of Spades.
 
 Harold, was known for his quick wit, silver tongue, and an insatiable appetite for risk. A natural-born storyteller, Harold weaved tales of his own misadventures, glorifying the highs and downplaying the lows. His charm could captivate even the most skeptical of hearts, but it often masked the harsh reality he faced.
@@ -75,7 +91,6 @@ Harold, now Nine of Spades, became a fixture in the local shelters and alleys. H
 Despite the odds, Nine of Spades refused to be defeated. With a worn-out deck of cards as his new medium, he continued to entertain and manipulate. He charmed his way into odd jobs, gathered information through his knack for gossip, and occasionally resorted to less-than-legal means to survive.
 
 Despite the chaos that surrounded him, Nine of Spades retained an air of defiance and unapologetic authenticity. He lived by his own set of rules, navigating the turbulent currents of Manem-Seika with a grin on his face and the Nine of Spades proudly displayed for all to see. Whether it was a con, a game of chance, or a heartfelt tale spun under the moonlit sky, Nine of Spades embraced each moment, determined to reclaim his lost fortunes and rewrite the chapters of his unpredictable life.
-** Notes
 * Spells
 ** Cantrips
 *** Vicious Mockery
@@ -92,7 +107,6 @@ If you create an image of an object—such as a chair, muddy footprints, or a sm
 If a creature uses its action to examine the sound or image, the creature can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the illusion becomes faint to the creature.
 *** Prestidigitation
 This spell is a minor magical trick that novice spellcasters use for practice. You create one of the following magical effects within range:
-
 - You create an instantaneous, harmless sensory effect, such as a shower of sparks, a puff of wind, faint musical notes, or an odd odor.
 - You instantaneously light or snuff out a candle, a torch, or a small campfire.
 - You instantaneously clean or soil an object no larger than 1 cubic foot.
@@ -136,12 +150,18 @@ Reduce. The target's size is halved in all dimensions, and its weight is reduced
 
 You fill a 20-foot cube you can see within range with fey and draconic magic. Roll on the Mischievous Surge table to determine the magical effect produced, and roll again at the start of each of your turns until the spell ends. You can move the cube up to 10 feet before you roll.
 
+#+ATTR_LATEX: :align |l|p{15cm}|
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | d4 | Effect                                                                                                                                                                                                             |
 |----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  1 | The smell of apple pie fills the air, and each creature in the cube must succeed on a Wisdom saving throw or become charmed by you until the start of your next                                                    |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  2 | Bouquets of flowers appear all around, and each creature in the cube must succeed on a Dexterity saving throw or be blinded until the start of your next turn as the flowers spray water in their faces.           |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  3 | Each creature in the cube must succeed on a Wisdom saving throw or begin giggling until the start of your next turn. A giggling creature is incapacitated and uses all its movement to move in a random direction. |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  4 | Drops of molasses hover in the cube, making it difficult terrain until the start of your next                                                                                                                      |
+|----+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 *** Suggestion
 You suggest a course of activity (limited to a sentence or two) and magically influence a creature you can see within range that can hear and understand you. Creatures that can't be charmed are immune to this effect. The suggestion must be worded in such a manner as to make the course of action sound reasonable. Asking the creature to stab itself, throw itself onto a spear, immolate itself, or do some other obviously harmful act ends the spell.
 
@@ -150,3 +170,9 @@ The target must make a Wisdom saving throw. On a failed save, it pursues the cou
 You can also specify conditions that will trigger a special activity during the duration. For example, you might suggest that a knight give her warhorse to the first beggar she meets. If the condition isn't met before the spell expires, the activity isn't performed.
 
 If you or any of your companions damage the target, the spell ends.
+* Notes
+- Cursed by Jeremiah
+  - Has Visions
+  - Must exorcise the demon
+  - It is north-west of our current location
+  - Gonna do some jesus shit
