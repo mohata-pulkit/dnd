@@ -1,12 +1,12 @@
 html {
-    font-family: "Jim Nightshade", cursive;
+    font-family: "Charm", cursive;
 
     --bg-color: #442222;
     --fg-color: #FFEEDD;
     --ac-color: #EEBB66;
     --hy-color: #BBEE66;
 
-    font-size: 20pt;
+    font-size: 18pt;
     margin: 0;
     padding: 0;
     background-color: var(--bg-color);
@@ -26,10 +26,44 @@ html {
     box-sizing: border-box;
 }
 
+blockquote{
+    font-family: "Jim Nightshade", "Great Vibes", "Charm", cursive;
+    font-size: 1.2em;
+}
+
 h1,h2,h3,h4,h5,h6{
     font-family: "Great Vibes", "Jim Nightshade", cursive;
     font-weight: normal;
     color: var(--ac-color);
+}
+
+h1{
+    font-size: 2.5rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h4{
+    font-size: 1.4rem;
+}
+
+h5{
+    font-size: 1.2rem;
+}
+
+h6{
+    font-size: 1rem;
+}
+
+.subtitle{
+    font-size: 1.2rem;
+    font-family: "Jim Nightshade";
 }
 
 li::marker {
@@ -79,7 +113,7 @@ thead{
 
 @media only screen and (max-width: 600px){
     html{
-        font-size: 8pt;
+        font-size: 12pt;
     }
     #content{
         padding:1em;
